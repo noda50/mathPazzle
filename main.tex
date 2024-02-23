@@ -1,0 +1,84 @@
+\documentclass[10pt,a4j,twoside]{jarticle}
+\usepackage{amsmath}
+%\usepackage{mathabx}
+%\usepackage{psfig}
+\usepackage{graphicx} % use \includegrahpics
+%\usepackage{Tabular}
+
+\usepackage{enumsty}
+
+\def\figref#1{図~\ref{#1}}
+\def\tabref#1{表~\ref{#1}}
+\def\eqref#1{(\ref{#1})~式}
+\def\eqrefbare#1{\ref{#1}}
+\def\secref#1{\ref{#1}~節}
+\def\Theoref#1{定理~\ref{#1}}
+\def\Lemref#1{補題~\ref{#1}}
+
+\pagestyle{bothstyle}
+\makeatletter
+%\def\@oddfoot{\hbox to \textwidth{\fhil \thepage \hfil}}
+%\def\@oddfoot{\reset@font\hfil\thepage\hfil}%
+\makeatother
+
+\makeatletter
+\@addtoreset{equation}{section}
+\renewcommand{\theequation}{\thesection.\@arabic\c@equation}
+\makeatother
+
+%\usepackage{showlabel}
+
+\input{defs.tex}
+
+%\iftrue
+\iffalse
+\includeonly{
+  S010/secBody.primePair
+  }
+\fi
+
+%\def\ClearPage{\clearpage}
+\def\ClearPage{\cleardoublepage}
+
+\begin{document}
+%%----------------------------------------------------------------------
+\title{IS Lab. 問題集}
+\author{野田五十樹}
+\date{%
+  {\scriptsize
+  \begin{tabular}[c]{|l|l|} \hline
+  2024/02/23 & 素数組問題 \\ \hline
+  2024/02/23 & 階乗問題 \\ \hline
+  2024/02/23 & お釣り問題 \\ \hline
+  2024/02/23 & 複素数問題 \\ \hline
+ \end{tabular}
+  }
+}
+\maketitle
+%%----------------------------------------------------------------------
+
+\setcounter{tocdepth}{10}
+
+\iftrue
+%\iffalse
+\ClearPage
+\tableofcontents
+\ClearPage\cleardoublepage
+\fi
+
+\include{S010/secBody.primePair}
+
+\ClearPage\cleardoublepage
+\include{S020/secBody.factorial}
+
+\ClearPage\cleardoublepage
+\include{S030/secBody.changeShort}
+
+\ClearPage\cleardoublepage
+\include{S040/secBody.complexNum}
+
+\ClearPage\cleardoublepage
+\bibliography{main}
+\bibliographystyle{jplain}
+  
+\end{document}

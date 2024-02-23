@@ -1,0 +1,23 @@
+% ENUMSTYLE Command
+%	Created by Den
+%	Modified by Noda
+%
+%       [2003/02/21 I.Noda] 
+%	  * grouping the label to limit the side effect.
+%
+% Usage:
+%   \enumstyle[PREFIX]{STYLE}[POSTFIX]
+%   STYLE := arabic | alph | Alph | roman | Roman
+%
+\def\enumstyle{%
+  \@ifnextchar[{\preenumstyle}{\preenumstyle[]}}
+\def\preenumstyle[#1]#2{%
+  \@ifnextchar[{\postenumstyle[#1]{#2}}{\postenumstyle[#1]{#2}[]}}
+\def\postenumstyle[#1]#2[#3]{%
+  \setbox\@tempboxa\hbox{{#1{}#3}}
+  \addtolength{\itemindent}{\wd\@tempboxa}
+  \expandafter\def\csname label\@enumctr\endcsname{%
+    \bgroup #1\csname #2\endcsname{\@enumctr}#3\egroup}
+  \expandafter\def\csname the\@enumctr\endcsname{%
+    \bgroup #1\csname #2\endcsname{\@enumctr}#3\egroup}}
+

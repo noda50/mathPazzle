@@ -185,8 +185,12 @@
 
 
 \newenvironment{Proof}{%
-  \paragraph*{証明}\ \par%
+  \paragraph*{証明}%
+  \vrule width .7\linewidth height 0.01pt
+  \ \par%
 }{%
+  \\
+  \vrule width .7\linewidth height 0.01pt
   \QED%
 }
 

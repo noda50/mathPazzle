@@ -14,11 +14,15 @@
 \contentsline {subparagraph}{\fbox {定理2.3}}{10}%
 \contentsline {section}{\numberline {3}お釣りが足りている}{11}%
 \contentsline {subsection}{\numberline {3.1}問題}{11}%
-\contentsline {subsubsection}{\numberline {3.1.1}具体問題}{11}%
+\contentsline {subsubsection}{\numberline {3.1.1}具体的問題}{11}%
 \contentsline {subsubsection}{\numberline {3.1.2}一般化問題}{11}%
+\contentsline {subsubsection}{\numberline {3.1.3}派生系具体的問題}{11}%
+\contentsline {subsubsection}{\numberline {3.1.4}派生系一般化問題}{11}%
 \contentsline {subsection}{\numberline {3.2}解答}{12}%
-\contentsline {subsubsection}{\numberline {3.2.1}具体問題}{12}%
+\contentsline {subsubsection}{\numberline {3.2.1}具体的問題}{12}%
 \contentsline {subsubsection}{\numberline {3.2.2}一般化問題}{12}%
+\contentsline {subsubsection}{\numberline {3.2.3}派生系具体的問題}{13}%
+\contentsline {subsubsection}{\numberline {3.2.4}派生系一般化問題}{13}%
 \contentsline {section}{\numberline {4}複素数に関する問題}{15}%
 \contentsline {subsection}{\numberline {4.1}1の$x$乗}{15}%
 \contentsline {subsubsection}{\numberline {4.1.1}問題}{15}%

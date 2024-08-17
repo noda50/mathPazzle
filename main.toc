@@ -31,4 +31,6 @@
 \contentsline {subsection}{\numberline {5.1}宇宙船の加速}{17}%
 \contentsline {subsubsection}{\numberline {5.1.1}問題}{17}%
 \contentsline {subsubsection}{\numberline {5.1.2}解答}{18}%
-\contentsline {subsubsection}{\numberline {5.1.3}参考:特殊相対性理論とニュートン力学の運動エネルギーの関係}{19}%
+\contentsline {subsubsection}{\numberline {5.1.3}解答2}{19}%
+\contentsline {subsubsection}{\numberline {5.1.4}参考:特殊相対性理論とニュートン力学の運動エネルギーの関係}{20}%
+\contentsline {subsubsection}{\numberline {5.1.5}参考:特殊相対性理論とニュートン力学の運動量の関係}{21}%
